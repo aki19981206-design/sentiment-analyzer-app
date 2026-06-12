@@ -1,4 +1,4 @@
 streamlit
 Janome
 asari
-scikit-learn
+scikit-learn==1.1.3
