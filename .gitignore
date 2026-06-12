@@ -1,0 +1,18 @@
+
+# 仮想環境（最重要：これらがGitHubに上がるのを防ぎます）
+.venv/
+venv/
+ENV/
+
+# Pythonが自動生成するキャッシュファイル
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Codeの設定フォルダ（個人設定が含まれるため除外）
+.vscode/
+
+# OSが自動生成する不必要なファイル（Mac/Windows）
+.DS_Store
+Thumbs.db
